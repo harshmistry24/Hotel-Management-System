@@ -1,5 +1,5 @@
 <?php 
-include 'connect.php';
+include 'db_connect.php';
 
 if(isset($_POST['forgotPassword'])){
     $email = $_POST['email'];

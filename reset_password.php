@@ -1,5 +1,5 @@
 <?php 
-include 'connect.php';
+include 'db_connect.php';
 
 if(isset($_POST['resetPassword'])){
     if(isset($_POST['email']) && isset($_POST['newPassword']) && isset($_POST['confirmPassword'])) {
